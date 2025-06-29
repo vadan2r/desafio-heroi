@@ -39,6 +39,7 @@ def heroi(nome, XP, nivel):
 2. Comparação entre Vitórias e Derrotas
 A função comparar_vitorias_derrotas() calcula o saldo de partidas ranqueadas (vitórias - derrotas) e classifica o jogador conforme o número de vitórias:
 
+'''
 def comparar_vitorias_derrotas(vitorias, derrotas):
     saldo_rankeadas = (vitorias - derrotas)
     nivel = ""    
@@ -57,7 +58,7 @@ def comparar_vitorias_derrotas(vitorias, derrotas):
     else:
         nivel = "Imortal"        
     return nivel, saldo_rankeadas
-
+'''
 
 
 ![Vitórias e Derrotas](https://github.com/user-attachments/assets/6455df2f-42c3-4c5f-96f9-de483c6bb87d)
@@ -70,7 +71,7 @@ class Heroi:
     def __init__(self, nome, idade, tipo):
         self.nome = nome
         self.idade = idade
-        self.tipo = tipo
+        self.tipo = tipo        
         
     def atacar(self):
         if self.tipo == "mago":
@@ -85,7 +86,7 @@ class Heroi:
             ataque = "arma desconhecida"
 
         print(f"O {self.tipo} {self.nome} atacou usando {ataque}.")
-
+'''
 
 
 🚀 Como Executar
