@@ -2,6 +2,7 @@
 
 Este projeto tem como objetivo a implementação de funcionalidades relacionadas à classificação e comportamento de heróis em um contexto de jogos ou desafios gamificados. As funções foram desenvolvidas em Python e seguem três eixos principais:
 
+
 ![Heróis](https://github.com/user-attachments/assets/5176cf1b-a6cb-4088-bc0b-e9db0cd29b72)
 
 
@@ -30,6 +31,7 @@ def heroi(nome, XP, nivel):
     else:
         nivel = "Radiante"
     return f"Herói: {nome}, Nível: {nivel}"
+```
 
 ![Nível com Base na Experiência](https://github.com/user-attachments/assets/d0091a05-8a81-4b01-8692-3449ecd64517)
 
@@ -56,6 +58,7 @@ def comparar_vitorias_derrotas(vitorias, derrotas):
         nivel = "Imortal"        
     return nivel, saldo_rankeadas
 
+
 ![Vitórias e Derrotas](https://github.com/user-attachments/assets/6455df2f-42c3-4c5f-96f9-de483c6bb87d)
 
 
@@ -81,6 +84,8 @@ class Heroi:
             ataque = "arma desconhecida"
 
         print(f"O {self.tipo} {self.nome} atacou usando {ataque}.")
+
+
 
 🚀 Como Executar
 Certifique-se de ter o Python instalado.
