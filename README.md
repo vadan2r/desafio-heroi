@@ -2,6 +2,9 @@
 
 Este projeto tem como objetivo a implementação de funcionalidades relacionadas à classificação e comportamento de heróis em um contexto de jogos ou desafios gamificados. As funções foram desenvolvidas em Python e seguem três eixos principais:
 
+![Heróis](https://github.com/user-attachments/assets/5176cf1b-a6cb-4088-bc0b-e9db0cd29b72)
+
+
 ## 📌 Funcionalidades
 
 ### 1. Classificação de Nível com Base na Experiência (XP)
@@ -28,6 +31,9 @@ def heroi(nome, XP, nivel):
         nivel = "Radiante"
     return f"Herói: {nome}, Nível: {nivel}"
 
+![Nível com Base na Experiência](https://github.com/user-attachments/assets/d0091a05-8a81-4b01-8692-3449ecd64517)
+
+
 2. Comparação entre Vitórias e Derrotas
 A função comparar_vitorias_derrotas() calcula o saldo de partidas ranqueadas (vitórias - derrotas) e classifica o jogador conforme o número de vitórias:
 
@@ -49,6 +55,9 @@ def comparar_vitorias_derrotas(vitorias, derrotas):
     else:
         nivel = "Imortal"        
     return nivel, saldo_rankeadas
+
+![Vitórias e Derrotas](https://github.com/user-attachments/assets/6455df2f-42c3-4c5f-96f9-de483c6bb87d)
+
 
 3. Classe Heroi com Método de Ataque
 A classe Heroi representa personagens com atributos e comportamento específico de ataque, dependendo do tipo de herói:
