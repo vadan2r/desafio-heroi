@@ -59,6 +59,7 @@ def comparar_vitorias_derrotas(vitorias, derrotas):
     return nivel, saldo_rankeadas
 
 
+
 ![Vitórias e Derrotas](https://github.com/user-attachments/assets/6455df2f-42c3-4c5f-96f9-de483c6bb87d)
 
 
